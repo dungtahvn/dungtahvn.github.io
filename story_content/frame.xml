@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111000101" textdirection="ltr" device="true" fontscale="111" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns11111000101" textdirection="ltr" device="true" fontscale="111" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
   <layouts>
-    <layout name="npnxnanbsnfns10111000101" font="Open Sans" controllayout="npnxnanbsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000101" font="Open Sans" controllayout="pxabnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="npxnabnsnfns10111000101" font="Open Sans" controllayout="npxnabnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="npnxnanbnsnfns10111000101" font="Open Sans" controllayout="npnxnanbnsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxabnsnfns10111000100" font="Open Sans" controllayout="pxabnsnfns10111000100" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxabsnfns10111000101" font="Open Sans" controllayout="pxabsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="pxnanbsnfns10111000101" font="Open Sans" controllayout="pxnanbsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
-    <layout name="npxnanbsnfns10111000101" font="Open Sans" controllayout="npxnanbsnfns10111000101" colorscheme="pxabnsnfns10111000101" string_table="pxabnsnfns10111000101" />
+    <layout name="npnxnanbsnfns11111000101" font="Open Sans" controllayout="npnxnanbsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="pxabnsnfns11111000101" font="Open Sans" controllayout="pxabnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="npxnabnsnfns11111000101" font="Open Sans" controllayout="npxnabnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="npnxnanbnsnfns11111000101" font="Open Sans" controllayout="npnxnanbnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="pxabnsnfns11111000100" font="Open Sans" controllayout="pxabnsnfns11111000100" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="pxabsnfns11111000101" font="Open Sans" controllayout="pxabsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
+    <layout name="npxnanbsnfns11111000101" font="Open Sans" controllayout="npxnanbsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -19,8 +18,16 @@
               <option name="title_text" value="PHƯƠNG TR&amp;#204;NH MŨ - PHƯƠNG TR&amp;#204;NH L&amp;#212;GARIT" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="464" />
+                  <property name="height" value="464" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/5X2h8kMOHAK.png" />
+            </options>
           </option>
           <option name="sidebar_enabled" value="true">
             <options>
@@ -85,12 +92,12 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns10111000101">
+    <control_layout name="npnxnanbsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -108,12 +115,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000101">
+    <control_layout name="pxabnsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -131,12 +138,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns10111000101">
+    <control_layout name="npxnabnsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -154,12 +161,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns10111000101">
+    <control_layout name="npnxnanbnsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
@@ -177,12 +184,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns10111000100">
+    <control_layout name="pxabnsnfns11111000100">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -200,12 +207,12 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pxabsnfns10111000101">
+    <control_layout name="pxabsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
@@ -223,35 +230,12 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxnanbsnfns10111000101">
+    <control_layout name="npxnanbsnfns11111000101">
       <control name="volume" enabled="true" />
       <control name="seekbar" enabled="true" />
       <control name="replay" enabled="true" />
       <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npxnanbsnfns10111000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
@@ -271,7 +255,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="pxabnsnfns10111000101">
+    <colorscheme name="pxabnsnfns11111000101">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1185,7 +1169,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="pxabnsnfns10111000101">
+    <string_table name="pxabnsnfns11111000101">
       <string id="acc_active">hoạt động</string>
       <string id="check_include">Chọn để bao gồm</string>
       <string id="clear">Xóa và quay lại Trình đơn</string>
@@ -1261,8 +1245,8 @@
             <slidelink slideid="_player.6Vtm5GU2Wxt.6YnUaNehIx2" displaytext="Giới thiệu" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6HWF18DqQOq" displaytext="Bài toán mở đầu" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.629qhyoviMn" displaytext="Phương trình mũ-Bài toán" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.685lPn0zBn9" displaytext="MỤC TIÊU" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5VVJc3ACp7s" displaytext="I. PHƯƠNG TRÌNH MŨ" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.685lPn0zBn9" displaytext="Mục tiêu" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.5VVJc3ACp7s" displaytext="Nội dung" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6dltEFPGHWP" displaytext="Định nghĩa phương trình mũ" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6njQc9syb46" displaytext="Minh họa bằng đồ thị" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6Znqi3F2KRW" displaytext="Kết luận" expand="false" type="slide" />
@@ -1275,16 +1259,19 @@
             <slidelink slideid="_player.6Vtm5GU2Wxt.5y9BRQkJehr" displaytext="Giải ví dụ 3b" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.5xz27j5nHiE" displaytext="Cách giải: Logarit hóa" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6MdanKv8Qo3" displaytext="Củng cố" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.6d46f9Zsan4" displaytext="TN. Câu 1" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.6jGFjlRxocO" displaytext="TN. Câu 2" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5rgLTWzpTHW" displaytext="TN. Câu 3" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5vgheHLtM9O" displaytext="TN. Câu 4" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5lIGRV512S2" displaytext="TN. Câu 5" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5Z45sQyr29J" displaytext="TN. Câu 6" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.6h9Wqh0nTgq" displaytext="TN. Câu 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.5mGYcaXmQBv" displaytext="Luyện tập 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6KythpAferm" displaytext="Luyện tập 2" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6KiVEAR3h7Y" displaytext="Luyện tập 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6Iz9HyaOzeo" displaytext="Luyện tập 4" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6PEQvIVofwm" displaytext="Luyện tập 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.66NLpIOmHtF" displaytext="Luyện tập 6" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6oiYq2Ot5uk" displaytext="Luyện tập 7" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.5Z45sQyr29J" displaytext="Luyện tập 8" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6h9Wqh0nTgq" displaytext="Luyện tập 9" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.5WH3oPkynFG" displaytext="Hướng dẫn học ở nhà" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.65eJB0cJaD2" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.62LerJW3rlB" displaytext="Kết thúc" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.65eJB0cJaD2" displaytext="Kết thúc" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.6fbVmxedPVj" displaytext="Tài liệu tham khảo" expand="false" type="slide" />
+            <slidelink slideid="_player.6Vtm5GU2Wxt.5lGBn7YraZF" displaytext="Phần mềm sử dụng" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
