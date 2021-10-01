@@ -26,7 +26,7 @@
                   <property name="height" value="464" />
                 </properties>
               </option>
-              <option name="html5_logo_url" value="mobile/6VJnlJOOYS8.png" />
+              <option name="html5_logo_url" value="mobile/5Um1rDkFQty.png" />
             </options>
           </option>
           <option name="sidebar_enabled" value="true">
@@ -57,7 +57,7 @@
       </optiongroup>
       <optiongroup name="menuoptions">
         <options>
-          <option name="flow" value="restricted" />
+          <option name="flow" value="free" />
           <option name="wraplistitems" value="true" />
           <option name="tooltips" value="true" />
           <option name="autocollapse" value="true" />
