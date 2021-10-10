@@ -7,7 +7,6 @@
     <layout name="npnxnanbnsnfns11111000101" font="Open Sans" controllayout="npnxnanbnsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
     <layout name="pxabnsnfns11111000100" font="Open Sans" controllayout="pxabnsnfns11111000100" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
     <layout name="pxabsnfns11111000101" font="Open Sans" controllayout="pxabsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
-    <layout name="npxnanbsnfns11111000101" font="Open Sans" controllayout="npxnanbsnfns11111000101" colorscheme="pxabnsnfns11111000101" string_table="pxabnsnfns11111000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -15,7 +14,7 @@
         <options>
           <option name="title_enabled" value="true">
             <options>
-              <option name="title_text" value="B&amp;#224;i giảng E-Learning dự thi" />
+              <option name="title_text" value="PHƯƠNG TR&amp;#204;NH MŨ - PHƯƠNG TR&amp;#204;NH L&amp;#212;GARIT" />
             </options>
           </option>
           <option name="logo_enabled" value="true">
@@ -217,29 +216,6 @@
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="false" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npxnanbsnfns11111000101">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="true" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -516,7 +492,7 @@
           <color name="selected_text">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xBCD0BA" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -544,7 +520,7 @@
           <color name="viewed">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x155EA7" alpha="100" stop="0" />
+                <color rgb="0xFFF185" alpha="94" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1269,12 +1245,9 @@
             <slidelink slideid="_player.6Vtm5GU2Wxt.6PEQvIVofwm" displaytext="Luyện tập 5" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.66NLpIOmHtF" displaytext="Luyện tập 6" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6oiYq2Ot5uk" displaytext="Luyện tập 7" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5Z45sQyr29J" displaytext="Luyện tập 8" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.6h9Wqh0nTgq" displaytext="Luyện tập 9" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.5WH3oPkynFG" displaytext="Hướng dẫn học ở nhà" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.65eJB0cJaD2" displaytext="Kết thúc" expand="false" type="slide" />
             <slidelink slideid="_player.6Vtm5GU2Wxt.6fbVmxedPVj" displaytext="Tài liệu tham khảo" expand="false" type="slide" />
-            <slidelink slideid="_player.6Vtm5GU2Wxt.5lGBn7YraZF" displaytext="Phần mềm sử dụng" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
